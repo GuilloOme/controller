@@ -10,11 +10,9 @@ Refer to the [wiki](https://github.com/kiibohd/controller/wiki) on setting up yo
 Build Steps
 -----------
 
-* Try to build once to make sure your system is setup correctly
-* Add any .kll files in the build directory you want
-* Edit `<script>` to include the new .kll files
-* Rebuild
-
+* edit `Bepo-*.kll`
+* run `./bepo-ergodox.bash`
+* you'll find the `.bin` in the current folder
 
 Example
 -------

@@ -1,0 +1,108 @@
+Name = "ErgoBEPO";
+Layout = "Default";
+Base = "Blank";
+Version = "0.5";
+Author = "GuilloOme";
+KLL = "0.3c";
+Date = "2017-03-02";
+Generator = "KIICONF 0.2";
+
+### LEFT ROW 1 ###
+U"EQUALS" : U"ESCAPE";
+U"1" : U"1";
+U"2" : U"2";
+U"3" : U"3";
+U"4" : U"4";
+U"5" : U"5";
+U"ESC" : U"BACKTICK";
+
+### LEFT ROW 2 ###
+U"BACKSLASH" : U"RBRACE";
+U"Q" : U"Q";
+U"W" : U"W";
+U"E" : U"E";
+U"R" : U"R";
+U"T" : U"T";
+U"FUNCTION1" : U"TAB";
+
+### LEFT ROW 3 ###
+U"TAB" : U"BACKSLASH";
+U"A" : U"A";
+U"S" : U"S";
+U"D" : U"D";
+U"F" : U"F";
+U"G" : U"G";
+
+### LEFT ROW 4 ###
+U"LSHIFT" : U"LCTRL";
+U"Z" : U"Z";
+U"X" : U"X";
+U"C" : U"C";
+U"V" : U"V";
+U"B" : U"B";
+U"FUNCTION2" : U"ENTER";
+
+### LEFT ROW 5 ###
+U"LGUI" : U"HOME";
+U"BACKTICK" : U"PAGEUP";
+U"FUNCTION3" : U"PAGEDOWN";
+U"FUNCTION4" : U"END";
+U"FUNCTION5" : U"LALT";
+
+### LEFT THUMB BLOCK ###
+U"LCTRL" : U"LGUI";
+U"LALT" : U"RGUI";
+U"HOME" : U"LCTRL" + U"LALT";
+U"BACKSPACE" : U"SPACE";
+U"DELETE" : U"LSHIFT";
+U"END" : U"LAT1";
+
+### RIGHT ROW 1 ###
+U"FUNCTION6" : U"EQUALS";
+U"6" : U"6";
+U"7" : U"7";
+U"8" : U"8";
+U"9" : U"9";
+U"0" : U"0";
+U"MINUS" : U"MINUS";
+
+### RIGHT ROW 2 ###
+U"LBRACE" : U"BACKSPACE";
+U"Y" : U"Y";
+U"U" : U"U";
+U"I" : U"I";
+U"O" : U"O";
+U"P" : U"P";
+U"RBRACE" : U"LBRACE";
+
+### RIGHT ROW 3 ###
+U"H" : U"H";
+U"J" : U"J";
+U"K" : U"K";
+U"L" : U"L";
+U"SEMICOLON" : U"SEMICOLON";
+U"QUOTE" : U"QUOTE";
+
+### RIGHT ROW 4 ###
+U"FUNCTION7" : U"DELETE";
+U"N" : U"N";
+U"M" : U"M";
+U"COMMA" : U"COMMA";
+U"PERIOD" : U"PERIOD";
+U"SLASH" : U"SLASH";
+U"RSHIFT" : U"RCTRL";
+
+### RIGHT ROW 5 ###
+U"LEFT" : U"RALT";
+U"DOWN" : U"LEFT";
+U"UP" : U"UP";
+U"RIGHT" : U"DOWN";
+U"RGUI" : U"RIGHT";
+
+### RIGHT THUMB BLOCK ###
+U"RALT" : U"APP";
+U"RCTRL" : U"LGUI";
+U"PAGEUP" : U"LCK1";
+U"PAGEDOWN" : U"FUN1";
+U"ENTER" : U"RSHIFT";
+U"SPACE" : U"SPACE";
