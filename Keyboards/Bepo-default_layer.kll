@@ -1,46 +1,46 @@
-Name = "ErgoBEPO";
-Layout = "Default";
-Base = "Blank";
-Version = "0.5";
-Author = "GuilloOme";
-KLL = "0.3c";
-Date = "2017-03-02";
-Generator = "KIICONF 0.2";
+Name            = "ErgoBEPO";
+Layout          = "Default";
+Base            = "Blank";
+Version         = "0.1";
+Author          = "GuilloOme 2017";
+KLL             = "0.3c";
+Date            = "2017-03-02";
+Generator       = "KIICONF 0.2";
 
 ### LEFT ROW 1 ###
-U"EQUALS" : U"ESCAPE";
-U"1" : U"1";
-U"2" : U"2";
-U"3" : U"3";
-U"4" : U"4";
-U"5" : U"5";
-U"ESC" : U"BACKTICK";
+U"EQUALS"       : U"ESCAPE";
+U"1"            : U"1";
+U"2"            : U"2";
+U"3"            : U"3";
+U"4"            : U"4";
+U"5"            : U"5";
+U"ESC"          : U"BACKTICK";
 
 ### LEFT ROW 2 ###
-U"BACKSLASH" : U"RBRACE";
-U"Q" : U"Q";
-U"W" : U"W";
-U"E" : U"E";
-U"R" : U"R";
-U"T" : U"T";
-U"FUNCTION1" : U"TAB";
+U"BACKSLASH"    : U"RBRACE";
+U"Q"            : U"Q";
+U"W"            : U"W";
+U"E"            : U"E";
+U"R"            : U"R";
+U"T"            : U"T";
+U"FUNCTION1"    : U"TAB";
 
 ### LEFT ROW 3 ###
-U"TAB" : U"BACKSLASH";
-U"A" : U"A";
-U"S" : U"S";
-U"D" : U"D";
-U"F" : U"F";
-U"G" : U"G";
+U"TAB"          : U"BACKSLASH";
+U"A"            : U"A";
+U"S"            : U"S";
+U"D"            : U"D";
+U"F"            : U"F";
+U"G"            : U"G";
 
 ### LEFT ROW 4 ###
 U"LSHIFT" : U"LCTRL";
-U"Z" : U"Z";
-U"X" : U"X";
-U"C" : U"C";
-U"V" : U"V";
-U"B" : U"B";
-U"FUNCTION2" : U"ENTER";
+U"Z"            : U"Z";
+U"X"            : U"X";
+U"C"            : U"C";
+U"V"            : U"V";
+U"B"            : U"B";
+U"FUNCTION2"    : U"ENTER";
 
 ### LEFT ROW 5 ###
 U"LGUI" : U"HOME";
