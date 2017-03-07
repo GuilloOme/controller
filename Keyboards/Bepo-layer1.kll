@@ -1,7 +1,7 @@
 Name            = "ErgoBEPO";
 Layout          = "Layer 1";
 Base            = "Blank";
-Version         = "0.5";
+Version         = "0.1";
 Author          = "GuilloOme 2017";
 KLL             = "0.3c";
 Date            = "2017-03-02";
@@ -26,7 +26,6 @@ U"T"            : U"F11";
 U"FUNCTION1"    : U"F12";
 
 ### LEFT ROW 3 ###
-U"A"            : CONS"STOP";
 U"S"            : CONS"SCANPREVIOUSTRACK";
 U"D"            : CONS"PAUSEPLAY";
 U"F"            : CONS"SCANNEXTTRACK";
@@ -37,13 +36,23 @@ U"B"            : CONS"VOLUMEDOWN";
 U"FUNCTION2"    : CONS"MUTE";
 
 ### LEFT ROW 5 ##
-U"FUNCTION5"    : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"BACKTICK"     : U"LCTRL" + U"C"; # Ctrl+X: Cut
+U"FUNCTION4"    : U"LCTRL" + U"K"; # Ctrl+S: Save
+
+### LEFT THUMB BLOCK ###
+U"HOME"         : U"FUN2"; # 
 
 ### RIGHT ROW 1 ###
 
 ### RIGHT ROW 2 ###
+U"U"            : U"HOME"; # V
+U"I"            : U"UP"; # D
+U"O"            : U"END"; # L
 
 ### RIGHT ROW 3 ###
+U"J"            : U"LEFT"; # T
+U"K"            : U"DOWN"; # S
+U"L"            : U"RIGHT"; # R
 
 ### RIGHT ROW 4 ###
 
@@ -54,4 +63,4 @@ U"RIGHT"        : U"PAGEDOWN";
 U"RGUI"	        : U"END";
 
 ### RIGHT THUMB BLOCK ###
-
+U"PAGEUP"       : U"FUN2"; # 

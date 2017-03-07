@@ -36,6 +36,7 @@ DefaultMap="Bepo-default_layer lcdFuncMap"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
 PartialMaps[1]="Bepo-layer1 lcdFuncMap"
+PartialMaps[2]="Bepo-layer2 lcdFuncMap"
 #PartialMaps[2]="iced_numpad"
 
 

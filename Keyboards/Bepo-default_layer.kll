@@ -46,17 +46,17 @@ U"FUNCTION2"    : U"BACKSLASH"; # Ç
 ### LEFT ROW 5 ###
 U"LGUI"         : U"LCTRL"; # 
 U"BACKTICK"     : U"LCTRL" + U"H"; # Ctrl+C: Copy
-U"FUNCTION3"    : U"LCTRL" + U"C"; # Ctrl+X: Cut
-U"FUNCTION4"    : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"FUNCTION3"    : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"FUNCTION4"    : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
 U"FUNCTION5"    : U"LALT"; # 
 
 ### LEFT THUMB BLOCK ###
-U"LCTRL"        : U"FUN1"; # 
-U"LALT"         : U"LCK1"; # 
-U"HOME"         : U"LGUI"; # 
+U"LCTRL"        : U"LCK1"; # 
+U"LALT"         : None; # 
+U"HOME"         : None; # 
 U"BACKSPACE"    : U"SPACE"; # 
-U"DELETE"       : None; # 
-U"END"          : None; # 
+U"DELETE"       : U"FUN1"; # 
+U"END"          : U"LGUI"; # 
 
 ### RIGHT ROW 1 ###
 U"FUNCTION6"    : U"EQUALS"; # %
@@ -103,7 +103,7 @@ U"RGUI"         : U"RIGHT"; #
 ### RIGHT THUMB BLOCK ###
 U"RALT"         : U"CAPSLOCK"; # 
 U"RCTRL"        : U"FUN1"; # 
-U"PAGEUP"       : U"RGUI"; # 
+U"PAGEUP"       : None; # 
 U"PAGEDOWN"     : None; # 
 # U"ENTER"        : U"ENTER"; # 
 # U"SPACE"        : U"SPACE"; # 
