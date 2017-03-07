@@ -5,9 +5,9 @@
 # These build scripts are just a convenience for configuring your keyboard (less daunting than CMake)
 # Jacob Alexander 2015-2016
 
-mkdir -p ./Bepo-L.gcc ./Bepo-R.gcc
-cp ./*.kll ./Bepo-L.gcc/
-cp ./*.kll ./Bepo-R.gcc/
+mkdir -p ./bepo-L.gcc ./bepo-R.gcc
+cp ./*.kll ./bepo-L.gcc/
+cp ./*.kll ./bepo-R.gcc/
 
 #################
 # Configuration #
@@ -17,7 +17,7 @@ cp ./*.kll ./Bepo-R.gcc/
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="Bepo-L"
+BuildPath="bepo-L"
 
 ## KLL Configuration ##
 
@@ -27,7 +27,7 @@ BaseMap="scancode_map leftHand slave1 rightHand"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="Bepo-default_layer lcdFuncMap"
+DefaultMap="bepo-layer0 bepo-lcd"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -35,8 +35,8 @@ DefaultMap="Bepo-default_layer lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="Bepo-layer1 lcdFuncMap"
-PartialMaps[2]="Bepo-layer2 lcdFuncMap"
+PartialMaps[1]="bepo-layer1 bepo-lcd"
+PartialMaps[2]="bepo-layer2 bepo-lcd"
 #PartialMaps[2]="iced_numpad"
 
 
@@ -86,7 +86,7 @@ source cmake.bash
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="Bepo-R"
+BuildPath="bepo-R"
 
 ## KLL Configuration ##
 
@@ -99,8 +99,8 @@ source cmake.bash
 
 
 # finishing
-mv ./Bepo-L.gcc/kiibohd.dfu.bin ./bepo_left.dfu.bin
-mv ./Bepo-R.gcc/kiibohd.dfu.bin ./bepo_right.dfu.bin
+mv ./bepo-L.gcc/kiibohd.dfu.bin ./bepo_left.dfu.bin
+mv ./bepo-R.gcc/kiibohd.dfu.bin ./bepo_right.dfu.bin
 
-rm -fr ./Bepo-L.gcc ./Bepo-R.gcc
+rm -fr ./bepo-L.gcc ./bepo-R.gcc
 
