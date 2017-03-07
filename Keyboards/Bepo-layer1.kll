@@ -1,79 +1,57 @@
-Name = "ErgoBEPO";
-Layout = "Layer 1";
-Base = "Blank";
-Version = "0.5";
-Author = "GuilloOme 2017";
-KLL = "0.3c";
-Date = "2017-03-02";
+Name            = "ErgoBEPO";
+Layout          = "Layer 1";
+Base            = "Blank";
+Version         = "0.5";
+Author          = "GuilloOme 2017";
+KLL             = "0.3c";
+Date            = "2017-03-02";
+
+# More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
 
 ### LEFT ROW 1 ###
-U"EQUALS" : U"PRINTSCREEN";
-U"1" : U"F1";
-U"2" : U"F2";
-U"3" : U"F3";
-U"4" : U"F4";
-U"5" : U"F5";
-U"ESC" : U"F6";
+U"EQUALS"       : U"PRINTSCREEN";
+U"1"            : U"F1";
+U"2"            : U"F2";
+U"3"            : U"F3";
+U"4"            : U"F4";
+U"5"            : U"F5";
+U"ESC"          : U"F6";
 
 ### LEFT ROW 2 ###
-U"BACKSLASH" : U"SCROLLLOCK";
-U"Q" : U"F7";
-U"W" : U"F8";
-U"E" : U"F9";
-U"R" : U"F10";
-U"T" : U"F11";
-U"FUNCTION1" : U"F12";
+U"Q"            : U"F7";
+U"W"            : U"F8";
+U"E"            : U"F9";
+U"R"            : U"F10";
+U"T"            : U"F11";
+U"FUNCTION1"    : U"F12";
 
 ### LEFT ROW 3 ###
-U"TAB" : U"PAUSE";
-U"A" : CONS"STOP";
-U"S" : CONS"SCANPREVIOUSTRACK";
-U"D" : CONS"PAUSEPLAY";
-U"F" : CONS"SCANNEXTTRACK";
-U"G" : CONS"VOLUMEUP";
+U"A"            : CONS"STOP";
+U"S"            : CONS"SCANPREVIOUSTRACK";
+U"D"            : CONS"PAUSEPLAY";
+U"F"            : CONS"SCANNEXTTRACK";
+U"G"            : CONS"VOLUMEUP";
 
 ### LEFT ROW 4 ###
-U"LSHIFT" : U"LCTRL" + U"SLASH";
-U"B" : CONS"VOLUMEDOWN";
-U"FUNCTION2" : CONS"MUTE";
+U"B"            : CONS"VOLUMEDOWN";
+U"FUNCTION2"    : CONS"MUTE";
 
-### LEFT ROW 5 ###
-U"LGUI" : U"LCTRL" + U"LBRACE";
-U"BACKTICK" : U"LCTRL" + U"X";
-U"FUNCTION3" : U"LCTRL" + U"C";
-U"FUNCTION4" : U"LCTRL" + U"H";
-U"FUNCTION5" : U"LCTRL" + U"U";
+### LEFT ROW 5 ##
+U"FUNCTION5"    : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
 
 ### RIGHT ROW 1 ###
-U"FUNCTION6" : U"CAPSLOCK";
-U"6" : U"NUMLOCK";
-U"MINUS" : toggleKbdProtocol();
 
 ### RIGHT ROW 2 ###
-U"Y" : U"TAB";
-U"U" : U"P7";
-U"I" : U"P8";
-U"O" : U"P9";
-U"P" : U"P/";
 
 ### RIGHT ROW 3 ###
-U"J" : U"P4";
-U"K" : U"P5";
-U"L" : U"P6";
-U"SEMICOLON" : U"P*";
 
 ### RIGHT ROW 4 ###
-U"M" : U"P1";
-U"COMMA" : U"P2";
-U"PERIOD" : U"P3";
-U"SLASH" : U"P+";
 
 ### RIGHT ROW 5 ###
-U"LEFT" : U"P0";
-U"DOWN" : U"P.";
-U"UP" : U"PENTER";
-U"RIGHT" : U"P-";
+U"DOWN"         : U"HOME";
+U"UP"           : U"PAGEUP";
+U"RIGHT"        : U"PAGEDOWN";
+U"RGUI"	        : U"END";
 
 ### RIGHT THUMB BLOCK ###
-U"ENTER" : U"BACKSPACE";
-U"SPACE" : U"PENTER";
+

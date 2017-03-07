@@ -5,104 +5,106 @@ Version         = "0.1";
 Author          = "GuilloOme 2017";
 KLL             = "0.3c";
 Date            = "2017-03-02";
-Generator       = "KIICONF 0.2";
+
+# More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
 
 ### LEFT ROW 1 ###
-U"EQUALS"       : U"ESCAPE";
-U"1"            : U"1";
-U"2"            : U"2";
-U"3"            : U"3";
-U"4"            : U"4";
-U"5"            : U"5";
-U"ESC"          : U"BACKTICK";
+U"EQUALS"       : U"ESCAPE"; # ESC
+# U"1"            : U"1"; # 
+# U"2"            : U"2"; # 
+# U"3"            : U"3"; # 
+# U"4"            : U"4"; # 
+# U"5"            : U"5"; # 
+U"ESC"          : U"BACKTICK"; # $
 
 ### LEFT ROW 2 ###
-U"BACKSLASH"    : U"RBRACE";
-U"Q"            : U"Q";
-U"W"            : U"W";
-U"E"            : U"E";
-U"R"            : U"R";
-U"T"            : U"T";
-U"FUNCTION1"    : U"TAB";
+U"BACKSLASH"    : U"TAB";  # 
+# U"Q"            : U"Q"; # B
+# U"W"            : U"W"; # É
+# U"E"            : U"E"; # P
+# U"R"            : U"R"; # O
+# U"T"            : U"T"; # È
+U"FUNCTION1"    : U"RBRACE"; # W
 
 ### LEFT ROW 3 ###
-U"TAB"          : U"BACKSLASH";
-U"A"            : U"A";
-U"S"            : U"S";
-U"D"            : U"D";
-U"F"            : U"F";
-U"G"            : U"G";
+U"TAB"          : U"FUN1"; # function 1
+# U"A"            : U"A"; # A
+# U"S"            : U"S"; # U
+# U"D"            : U"D"; # I
+# U"F"            : U"F"; # E
+# U"G"            : U"G"; # ,
 
 ### LEFT ROW 4 ###
-U"LSHIFT" : U"LCTRL";
-U"Z"            : U"Z";
-U"X"            : U"X";
-U"C"            : U"C";
-U"V"            : U"V";
-U"B"            : U"B";
-U"FUNCTION2"    : U"ENTER";
+U"LSHIFT"       : U"LSHIFT"; # 
+# U"Z"            : U"Z"; # À
+# U"X"            : U"X"; # Y
+# U"C"            : U"C"; # X
+# U"V"            : U"V"; # .
+# U"B"            : U"B"; # K
+U"FUNCTION2"    : U"BACKSLASH"; # Ç
 
 ### LEFT ROW 5 ###
-U"LGUI" : U"HOME";
-U"BACKTICK" : U"PAGEUP";
-U"FUNCTION3" : U"PAGEDOWN";
-U"FUNCTION4" : U"END";
-U"FUNCTION5" : U"LALT";
+U"LGUI"         : U"LCTRL"; # 
+U"BACKTICK"     : U"LCTRL" + U"H"; # Ctrl+C: Copy
+U"FUNCTION3"    : U"LCTRL" + U"C"; # Ctrl+X: Cut
+U"FUNCTION4"    : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"FUNCTION5"    : U"LALT"; # 
 
 ### LEFT THUMB BLOCK ###
-U"LCTRL" : U"LGUI";
-U"LALT" : U"RGUI";
-U"HOME" : U"LCTRL" + U"LALT";
-U"BACKSPACE" : U"SPACE";
-U"DELETE" : U"LSHIFT";
-U"END" : U"LAT1";
+U"LCTRL"        : U"FUN1"; # 
+U"LALT"         : U"LCK1"; # 
+U"HOME"         : U"LGUI"; # 
+U"BACKSPACE"    : U"SPACE"; # 
+U"DELETE"       : None; # 
+U"END"          : None; # 
 
 ### RIGHT ROW 1 ###
-U"FUNCTION6" : U"EQUALS";
-U"6" : U"6";
-U"7" : U"7";
-U"8" : U"8";
-U"9" : U"9";
-U"0" : U"0";
-U"MINUS" : U"MINUS";
+U"FUNCTION6"    : U"EQUALS"; # %
+# U"6"            : U"6"; # 
+# U"7"            : U"7"; # 
+# U"8"            : U"8"; # 
+# U"9"            : U"9"; # 
+# U"0"            : U"0"; # 
+# U"MINUS"        : U"MINUS"; # =
 
 ### RIGHT ROW 2 ###
-U"LBRACE" : U"BACKSPACE";
-U"Y" : U"Y";
-U"U" : U"U";
-U"I" : U"I";
-U"O" : U"O";
-U"P" : U"P";
-U"RBRACE" : U"LBRACE";
+U"LBRACE"       : U"BACKSPACE"; # 
+# U"Y"            : U"Y"; # !
+# U"U"            : U"U"; # V
+# U"I"            : U"I"; # D
+# U"O"            : U"O"; # L
+# U"P"            : U"P"; # J
+U"RBRACE"       : U"LBRACE"; # Z
 
 ### RIGHT ROW 3 ###
-U"H" : U"H";
-U"J" : U"J";
-U"K" : U"K";
-U"L" : U"L";
-U"SEMICOLON" : U"SEMICOLON";
-U"QUOTE" : U"QUOTE";
+# U"H"            : U"H"; # C
+# U"J"            : U"J"; # T
+# U"K"            : U"K"; # S
+# U"L"            : U"L"; # R
+# U"SEMICOLON"    : U"SEMICOLON"; # N
+# U"QUOTE"        : U"QUOTE"; # M
 
 ### RIGHT ROW 4 ###
-U"FUNCTION7" : U"DELETE";
-U"N" : U"N";
-U"M" : U"M";
-U"COMMA" : U"COMMA";
-U"PERIOD" : U"PERIOD";
-U"SLASH" : U"SLASH";
-U"RSHIFT" : U"RCTRL";
+U"FUNCTION7"    : U"DELETE"; # 
+# U"N"            : U"N"; # ?
+# U"M"            : U"M"; # Q
+# U"COMMA"        : U"COMMA"; # G
+# U"PERIOD"       : U"PERIOD"; # H
+# U"SLASH"        : U"SLASH"; # F
+#U"RSHIFT"       : U"RSHIFT"; # 
 
 ### RIGHT ROW 5 ###
-U"LEFT" : U"RALT";
-U"DOWN" : U"LEFT";
-U"UP" : U"UP";
-U"RIGHT" : U"DOWN";
-U"RGUI" : U"RIGHT";
+U"LEFT"         : U"RALT"; # 
+U"DOWN"         : U"LEFT"; # 
+# U"UP"           : U"UP"; # 
+U"RIGHT"        : U"DOWN"; # 
+U"RGUI"         : U"RIGHT"; # 
 
 ### RIGHT THUMB BLOCK ###
-U"RALT" : U"APP";
-U"RCTRL" : U"LGUI";
-U"PAGEUP" : U"LCK1";
-U"PAGEDOWN" : U"FUN1";
-U"ENTER" : U"RSHIFT";
-U"SPACE" : U"SPACE";
+U"RALT"         : U"CAPSLOCK"; # 
+U"RCTRL"        : U"FUN1"; # 
+U"PAGEUP"       : U"RGUI"; # 
+U"PAGEDOWN"     : None; # 
+# U"ENTER"        : U"ENTER"; # 
+# U"SPACE"        : U"SPACE"; # 
+
